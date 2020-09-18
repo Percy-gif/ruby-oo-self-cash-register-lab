@@ -14,8 +14,9 @@ class CashRegister
     
  
 
-    def add_item(title, price)
+    def add_item(title, price, qty=9)
         self.total += 0.98
+        # self.add_item  
         
     end 
 
@@ -23,12 +24,13 @@ class CashRegister
         @discount
     end 
 
-    # def items 
-    # end 
+    def item
+    end 
 
-    # def void_last_transaction
-    #
-    # end 
+    def void_last_transaction
+        
+    
+    end 
 
 
 end
